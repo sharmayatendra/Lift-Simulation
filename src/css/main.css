@@ -1,0 +1,35 @@
+:root {
+  --bg-color: rgb(226, 223, 223);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.heading {
+  text-align: center;
+}
+
+.inp-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+/* .lift-label {
+  display: flex;
+  gap: 8px;
+} */
+
+label {
+  min-width: 100px;
+  /* max-width: 200px; */
+}
+.inp {
+  display: flex;
+  /* flex-wrap: wrap; */
+}

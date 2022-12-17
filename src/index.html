@@ -4,9 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
     <title>Lift Simulation</title>
   </head>
   <body>
-    <h1>Lift Simulation</h1>
+    <h1 class="heading">Lift Simulation</h1>
+    <form class="inp-container">
+      <div class="inp">
+        <label for="lift" class="lift-label">Lifts:</label
+        ><input type="number" id="lift" required />
+      </div>
+
+      <div class="inp">
+        <label for="floor" class="lift-label">Floors:</label
+        ><input type="number" id="floor" required />
+      </div>
+
+      <button type="submit" id="btn">Proceed</button>
+    </form>
   </body>
 </html>
